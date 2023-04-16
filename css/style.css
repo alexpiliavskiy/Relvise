@@ -170,6 +170,13 @@ body {
   font-weight: 600;
 }
 
+.menu_link:hover {
+  background-color: #252b42;
+  color: #fff;
+  line-height: calc(24 / 14 * 100%);
+  font-weight: 600;
+}
+
 @media (max-width: 479px) {
   .menu_link {
     font-size: 18px;
@@ -275,9 +282,19 @@ body {
   color: #fff;
 }
 
+.main-block_button_orange:hover {
+  background: #252b42;
+  color: #fff;
+}
+
 .main-block_button_border {
   color: #0d5c63;
   border: 1px solid #0d5c63;
+}
+
+.main-block_button_border:hover {
+  background: #252b42;
+  color: #fff;
 }
 
 .main-block_image {
